@@ -1,0 +1,222 @@
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: searchfield-cancel-button;
+}
+
+body {
+    background-image: url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/arches.png');
+}
+
+.simon {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 472px;
+    height: 472px;
+    background-color: #2E2E2E;
+    position: relative;
+    overflow: hidden;
+    border: 24px solid #2E2E2E;
+}
+
+.box {
+    background-clip: content-box;
+    /*kill edge hairline; padding: 1px;
+or use background-clip: padding-box;
+or use different border thickness of colors (border-left-width: 24px;)
+and without simon borders*/
+    position: absolute;
+    width: 236px;
+    height: 236px;
+    border: 12px solid #2E2E2E;
+}
+
+.box.true {
+    cursor: pointer;
+}
+
+.green {
+    background-color: #00b651;
+    right: 50%;
+    bottom: 50%;
+}
+
+.green.shine {
+    background-color: #13ff7c;
+}
+
+.red {
+    background-color: #a00e17;
+    left: 50%;
+    bottom: 50%;
+}
+
+.red.shine {
+    background-color: #CE3D3D;
+}
+
+.yellow {
+    background-color: #c6a209;
+    right: 50%;
+    top: 50%;
+}
+
+.yellow.shine {
+    background-color: #fedc52;
+}
+
+.blue {
+    background-color: #1e5b99;
+    left: 50%;
+    top: 50%;
+}
+
+.blue.shine {
+    background-color: #1c8cff;
+}
+
+.panel {
+    background-clip: content-box;
+    margin: auto;
+    vertical-align: middle;
+    border-radius: 50%;
+    width: 236px;
+    height: 236px;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 12px solid #2E2E2E;
+}
+
+h1 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 50px;
+    margin-top: 37px;
+    margin-left: -10px;
+}
+
+.r {
+    font-size: 15px;
+    top: 49px;
+    right: 17px;
+    position: absolute;
+}
+
+.upper {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    position: relative;
+    margin-left: 163px;
+    margin-top: -7px;
+    margin-bottom: 1px;
+    background-color: #32050C;
+}
+
+.upper.act {
+    background-color: #DC0D29;
+    border: 2px solid #2E2E2E;
+}
+
+.left {
+    width: 58px;
+    height: 40px;
+    background-color: #32050C;
+    border-radius: 10px;
+    border: 4px solid #2E2E2E;
+    margin-left: 28px;
+    margin-top: -4px;
+}
+
+.dash {
+    color: #430710;
+    font-size: 30px;
+    margin-top: 1px;
+}
+
+.dash.turn {
+    color: #DC0D29;
+}
+
+.button {
+    border: 4px solid #444444;
+    outline: none;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.button:active {
+    border: 4px solid #2E2E2E;
+}
+
+.middle {
+    margin-top: -34px;
+    margin-left: 102px;
+    background-color: green;
+}
+
+.right {
+    margin-top: -28px;
+    margin-left: 155px;
+    background-color: yellow;
+}
+
+.text, .text1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.count {
+    top: 139px;
+    left: 36px;
+}
+
+.start {
+    top: 139px;
+    left: 97px;
+}
+
+.strict {
+    top: 139px;
+    left: 148px;
+}
+
+.off {
+    top: 165px;
+    left: 55px;
+}
+
+.on {
+    top: 165px;
+    left: 133px;
+}
+
+.big {
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    background-color: #222222;
+    top: 171px;
+    left: 85px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.small {
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    /*float: right;*/
+}
+
+.small.turnon {
+    float: right;
+}
